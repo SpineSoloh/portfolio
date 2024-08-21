@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/games');
+                
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -36,22 +38,28 @@ header {
     text-align: center;
     margin-top: 20px;
     flex-grow: 1;
+    background-color: #043927; /* Sacramento green color */
+    padding: 40px 0;
+    color: #fff; /* White text color for contrast */
 }
 
 .hero h1 {
     font-size: 3em;
-    color: #333;
     margin-bottom: 20px;
     display: inline-block;
-    border-right: 2px solid #333;
+    border-right: 2px solid #fff; /* Adjusted to white for visibility */
     white-space: nowrap;
     overflow: hidden;
+    font-family: sans-serif;
 }
 
-.projects {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+span{
+    color: aqua;
+}
+
+.hero p{
+    font-size: 2em;
+    color: bisque;
 }
 
 .projects a img {
@@ -63,6 +71,7 @@ header {
 .projects a img:hover {
     transform: scale(1.1);
 }
+
 
 /* Footer styling */
 footer {
