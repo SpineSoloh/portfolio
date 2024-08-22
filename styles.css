@@ -34,6 +34,10 @@ header {
     font-size: 1.5em;
 }
 
+.social-links a:hover{
+    color: darkgoldenrod;
+}
+
 .hero {
     text-align: center;
     margin-top: 20px;
@@ -44,7 +48,7 @@ header {
 }
 
 .hero h1 {
-    font-size: 3em;
+    font-size: 40px;
     margin-bottom: 20px;
     display: inline-block;
     border-right: 2px solid #fff; /* Adjusted to white for visibility */
@@ -53,23 +57,42 @@ header {
     font-family: sans-serif;
 }
 
+.hero h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: darkgoldenrod;
+}
+
 span{
-    color: aqua;
+    color: darkgoldenrod;
 }
 
 .hero p{
-    font-size: 2em;
+    font-size: 2opx;
     color: bisque;
 }
 
-.projects a img {
+.projects a {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.projects img {
     width: 100px;
     height: 100px;
     transition: transform 0.2s ease;
 }
 
-.projects a img:hover {
+.projects img:hover {
     transform: scale(1.1);
+}
+
+.projects p {
+    margin-top: 10px;
+    font-size: 1.2em;
 }
 
 
